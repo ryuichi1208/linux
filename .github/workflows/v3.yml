@@ -1,4 +1,4 @@
-name: Test2
+name: Test3
 
 on:
   push:
@@ -11,7 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout2
-      uses: actions/checkout@v2
     - name: Checkout3
       uses: actions/checkout@v3
